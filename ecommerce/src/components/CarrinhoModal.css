@@ -1,0 +1,17 @@
+.modal-content ul {
+    list-style-type: none; padding: 0;
+}
+
+.modal-content li {
+  padding: 5px 0; display: flex;
+  justify-content: space-between; align-items: center;
+}
+
+.modal-content li button {
+  background-color: #d32f2f; color: white; border: none;
+  padding: 4px 8px; border-radius: 4px; cursor: pointer;
+}
+
+.modal-content li button:hover {
+    background-color: #9a0007;
+}

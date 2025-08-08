@@ -1,0 +1,23 @@
+.produtos-container {
+    padding: 20px; text-align: center;
+}
+
+.grid-produtos {
+  display: flex; justify-content: center;
+  gap: 20px; flex-wrap: wrap; margin-top: 20px;
+}
+
+.produto {
+  border: 1px solid #ccc; border-radius: 10px;
+  padding: 16px; width: 200px; background-color: #fff;
+}
+
+.produto button {
+  margin-top: 10px; background-color: #1976d2; color: white;
+  border: none; padding: 8px 12px;
+  border-radius: 5px; cursor: pointer;
+}
+
+.produto button:hover {
+    background-color: #115293;
+}

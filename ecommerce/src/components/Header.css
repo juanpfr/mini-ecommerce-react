@@ -1,0 +1,44 @@
+.header {
+  display: flex;
+  align-items: center;
+  padding: 12px 20px;
+  background-color: #1976d2;
+  color: white;
+}
+
+/* três áreas: esquerda (logo), centro (nav), direita (botão carrinho) */
+.header-left,
+.header-center,
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+.header-left {
+  flex: 0 0 auto;
+}
+
+.header-center {
+  flex: 1 1 auto;
+  justify-content: center;
+}
+
+.header-right {
+  flex: 0 0 auto;
+}
+
+/* logo */
+.logo {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+/* estilo opcional para botão dentro do header (pode ser sobrescrito por inline style) */
+.header-right button {
+  color: white;
+  background: transparent;
+  border: 1px solid rgba(255,255,255,0.25);
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
