@@ -1,4 +1,4 @@
-# Juan Shop React App
+# Loja Gambeta React App
 
 Este projeto é um site de e-commerce simples criado com **React** para fins de aprendizado.
 
@@ -35,11 +35,11 @@ src/
 
 1. **Clone o repositório**:
 ```bash
-git clone https://github.com/seu-usuario/juan-shop-react.git
+git clone https://github.com/juanpfr/mini-ecommerce-react.git
 ```
 2. **Acesse a pasta do projeto**:
 ```bash
-cd juan-shop-react
+cd mini-ecommerce-react
 ```
 3. **Instale as dependências**:
 ```bash
